@@ -1,0 +1,6 @@
+{
+    "port": 6000,
+    "Market-Data":{
+        "URL":"http://www.cmdalayout.com/CommodityRate/CommodityRateToday.aspx"
+    }
+}
