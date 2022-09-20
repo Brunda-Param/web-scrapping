@@ -9,14 +9,14 @@ class Models {
 
     constructor() {
         if (Models.instance) {
-            throw new Error("Can't Create new object. Use MongoConnector.getInstance()");
+            throw new Error("Can't Create new object");
         }
     }
 
     public static getInstance(): Models {
         if (!Models.instance) {
             Models.instance = new Models();
-            console.log("[INFO] Creating MongoConnector Instance");
+            console.log("[INFO] Creating Models Instance");
         }
         return Models.instance;
     }
